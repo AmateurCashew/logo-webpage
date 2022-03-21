@@ -1,0 +1,24 @@
+	body {
+        background-color: rgb(221, 242, 252);
+    }
+		hr {
+			border-style:none;
+			border-top-style: dotted;
+			border-color: bisque;
+			border-width: 5px;
+			width: 5%;
+			}
+    h1{
+         color: #66bfbf;
+}
+h3{
+    color: #66bfbf;)
+}
+
+.circular{
+    border-radius: 100%;
+}
+
+img:hover{
+    background-color:aqua;
+}
