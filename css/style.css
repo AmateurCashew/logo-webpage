@@ -1,6 +1,5 @@
 BODY{
-    margin:0;
-    text-align: center;
+   
     font-family: Arial, Helvetica, sans-serif ;
     font-family: 'Merriweather', serif;
     color: #40514E;
@@ -9,15 +8,8 @@ BODY{
 p{
     line-height: 2;
 }
-a{
-    color: #11999E;
-    font-family: 'Montserrat', sans-serif;
-    margin: 10px 20px;
-    text-decoration: none;
-}
-a:hover{
-    color: #Eaf6f6;
-}
+
+
 hr{
     border: dotted #66bfbf 6px;
     border-bottom: none;
@@ -36,7 +28,7 @@ h2{
     font-size: 2.5rem;
     color: #66bfbf;
     font-weight: normal;
-    padding-bottom:10px;
+    
 }
 h3{
     font-family: 'Montserrat', sans-serif;
@@ -51,8 +43,7 @@ div{
     padding-top: 80px;
 }
 .middle-container{
-    margin-top: 30px;
-    
+   
 }
 .bottom-container{
    
@@ -71,20 +62,9 @@ div{
     font-size: 0.75rem;
     padding: 20px 0;
 }
-.top-cloud{
-    position: absolute;
-    right: 450px;
-    top: 30px;
-    height:100px;
-    width: 200px;
-}
-.bottom-cloud{
-    position: absolute;
-    left: 400px;
-    bottom: 530px;
-    height:100px;
-    width: 200px;
-}
+
+
+
 .skill-row{
     display:inline-block;
     width:50%;
@@ -138,3 +118,39 @@ padding: 80px 0 20px;
     background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
     text-decoration: none;
   }
+  .navimgleft{
+      display: inline-block;
+      width: 1000px;
+      height: 1000px;
+      padding: 50px;
+      text-align: left;
+  }
+  .navimgright{
+    display: inline-block;
+    width: 1000px;
+    height: 1000px;
+    padding: 50px;
+  margin-right: 10px;
+    text-align: right;
+}
+.row {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column a img {
+    margin: 50px;
+    vertical-align: middle;
+    
+    width: 1000px;
+    height: 1000px;
+  }
+  
