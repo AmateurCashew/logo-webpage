@@ -145,12 +145,17 @@ padding: 80px 0 20px;
     flex: 50%;
     padding: 0 4px;
   }
-  
+ 
+  .column img {
+    margin: 50px;
+    vertical-align: middle;
+    width: 40%;
+    }
+
   .column a img {
     margin: 50px;
     vertical-align: middle;
-    
-    width: 1000px;
-    height: 1000px;
-  }
-  
+    width: 40%;
+    }
+
+   
